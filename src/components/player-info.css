@@ -1,0 +1,42 @@
+#card-container {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+}
+
+#cards {
+  width: 30%;
+  margin: 0;
+}
+
+#header-layout {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bold-text {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#card-grid{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto;
+}
+
+#align-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.blue {
+  background-color: #30d4ff !important;
+}
+.green {
+  background-color: #50ff6c !important;
+}
+.purple {
+  background-color: #f276f9 !important;
+}
